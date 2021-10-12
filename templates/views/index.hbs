@@ -1,0 +1,189 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+   
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+       
+    </div>
+    <div class="main-content">
+        <div class="column">
+            <img src="img_london.jpg" alt="London" style="width:100%">
+            <p>Choose a plan</p>
+        </div>
+        <div class="column">
+            <p>CookBook</p>
+        </div>
+        <div class="column">
+            <p>Videos</p>
+        </div>
+         <div class="column">
+             <p>Stores</p>
+         </div>
+    </div>
+    {{>footer}}
+     <script src="/js/app.js"></script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness Food Delivery Service | plumgen.com</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="./css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="plungem.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Food</a></li>
+            <li class="item"><a href="#client-section">FoodPlan</a></li>
+            <!--<li class="item"><a href="#client-section">Feedback</a></li>-->
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Well planned Dishes that strictly agrees your healthy diet plan</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolorum numquam minus. </p> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p> -->
+        <!--<a href="#services-container"><button class="btn">Choose a Plan</button></a>-->
+    </section>
+
+    <section id="services-container">
+        <!--<h1 class="h-primary center">Food</h1>-->
+        <div id="services">
+            <div class="box">
+                <p><a href="/breakfast"><img src="img/upma.png" alt=""></a></p>    
+                <h2 class="h-secondary center">Break Fast</h2>               
+            </div>
+            <div class="box">
+                <p><a href="/lunch"><img src="img/dalRice.png" alt=""></a></p>                
+                <h2 class="h-secondary center">Lunch</h2>
+             </div>
+            <div class="box">
+                 <p><a href="/dinner"><img src="img/roti1.png" alt=""></a></p>
+          
+                <h2 class="h-secondary center">Dinner</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <!--<h1 class="h-primary center">About Us</h1>
+        <div id="clients">
+            <div class="client-item"></div>
+            <div class="client-item">
+                <img src="public/img/logo2.png" alt="Video2">
+            </div>
+          
+            <div class="client-item">
+                <img src="public/img/logo4.png" alt="Video3">
+            </div>
+            <div class="client-item">
+                <img src="public/img/logo3.png" alt="Video4">
+            </div>
+        </div>-->
+        <h1 class="h-primary center">Food Plan</h1>
+        <div id="clients">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Implication</th>
+                </tr>
+
+                <tr>
+                    <td>No second us of burned oil </td>
+                    <td>Creates toxin and responsible for many life threatning diseses</td>
+                </tr>
+
+                <tr>
+                    <td>Use sofola/sundrop oil only</td>
+                    <td>Good for heart as well as intestine</td>
+                </tr>
+
+                <tr>
+                    <td>No deep fry</td>
+                    <td>Saves from harmful fat / cholestrol</td>
+                </tr>
+
+                <tr>
+                    <td>No white sugar, only juggery / herbal sugar</td>
+                    <td>Helps to manage diabetic</td>
+                </tr>
+
+                <tr>
+                    <td>No white salt, only rock salt</td>
+                    <td>Helps to manage Hypertension and heart related deseses</td>
+                </tr>
+
+                <tr>
+                    <td>Maximum use of natural / organic vegetables / seasonal vegetables</td>
+                    <td>Provides toxic free vitamins and minarals for building up immune system</td>
+                </tr>
+
+                <tr>
+                    <td>Daily Vegetable / fruit salad</td>
+                    <td>Good for overall health and digestive</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Feedback</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="center">
+            <h6 class="h-secondary center">H.No. 19, Grandmark Complex, Tamando, ph: +917681054684 </h6>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            2021 Copyright &copy; www.plungem.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
